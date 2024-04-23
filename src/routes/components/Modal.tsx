@@ -50,6 +50,12 @@ export default function TEMPLATE_Page() {
       value: "",
     },
     {
+      label: "Closable",
+      type: "boolean",
+      name: "closable",
+      value: false,
+    },
+    {
       label: "Heading",
       type: "string",
       name: "heading",
@@ -90,43 +96,43 @@ export default function TEMPLATE_Page() {
     {
       name: "heading",
       type: "string | slot",
-      description: "Heading text within the modal",
+      description: "Heading text within the modal.",
       lang: "angular",
     },
     {
       name: "heading",
       type: "string | ReactNode",
-      description: "Heading text within the modal",
+      description: "Heading text within the modal.",
       lang: "react",
     },
     {
       name: "open",
       type: "boolean",
-      description: "Controls if modal is visible or not",
+      description: "Controls if modal is visible or not.",
       defaultValue: "false",
     },
     {
       name: "maxwidth",
       type: "string",
-      description: "Set the max allowed width of the modal",
+      description: "Set the max allowed width of the modal.",
       lang: "angular",
     },
     {
       name: "maxWidth",
       type: "string",
-      description: "Set the max allowed width of the modal",
+      description: "Set the max allowed width of the modal.",
       lang: "react",
     },
     {
       name: "closable",
       type: "boolean",
-      description: "Show close icon and allow clicking the background to close the modal",
+      description: "Show close icon and allow clicking the background to close the modal.",
       defaultValue: "false",
     },
     {
       name: "transition",
       type: "fast | slow | none",
-      description: "How modal transition onto screen",
+      description: "How modal transition onto screen.",
       defaultValue: "none",
     },
     {
@@ -144,13 +150,13 @@ export default function TEMPLATE_Page() {
     {
       name: "actions",
       type: "slot",
-      description: "Buttons displayed in the bottom right of the modal instead of a close icon",
+      description: "Buttons displayed in the bottom right of the modal instead of a close icon.",
       lang: "angular",
     },
     {
       name: "actions",
       type: "ReactNode",
-      description: "Buttons displayed in the bottom right of the modal instead of a close icon",
+      description: "Buttons displayed in the bottom right of the modal instead of a close icon.",
       lang: "react",
     },
   ];
