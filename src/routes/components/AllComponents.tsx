@@ -302,6 +302,12 @@ export default function AllComponentsPage() {
         "Arrange a number of components into a responsive grid pattern.",
     },
     {
+      name: "link",
+      groups: ["utilities"],
+      tags: ["utilities"],
+      description: "Let users navigate to another page or location.",
+    },
+    {
       name: "icons",
       groups: ["utilities"],
       tags: ["utilities"],
